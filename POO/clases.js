@@ -1,3 +1,4 @@
+//SINTAXIS MODERNA
 class Persona {
     constructor(nombre, edad) {
         this.nombre = nombre;

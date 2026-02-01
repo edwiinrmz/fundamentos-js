@@ -1,3 +1,4 @@
+//ESTRUCTURA FUNCION CONSTRUCTORA
 /*
 const persona = {
     nombre: "Edwin",

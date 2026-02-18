@@ -12,6 +12,7 @@ class Animal {
 //clase constructora de perro va a extender de clase Animal
 class Perro extends Animal{
     constructor(nombre, tipo, raza){
-        super()
+        super(nombre, tipo);
+        this.raza = raza;
     }
 }

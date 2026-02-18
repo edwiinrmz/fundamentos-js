@@ -15,4 +15,19 @@ class Perro extends Animal{
         super(nombre, tipo);
         this.raza = raza;
     }
+    //metodo
+    emitirSonido(){
+        console.log("El perro ladra")
+    }
+    //metodo correr
+    correr(){
+        console.log(`${this.nombre} corre alegremente`);
+    }
 }
+
+//instancia
+const perro1 = new Perro("Bobby", "Perro", "labrador");
+
+console.log(perro1);
+perro1.correr();
+perro1.emitirSonido();

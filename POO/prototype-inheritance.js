@@ -17,7 +17,7 @@ class Perro extends Animal{
     }
     //metodo
     emitirSonido(){
-        console.log("El perro ladra")
+        console.log("El perro ladra");
     }
     //metodo correr
     correr(){
@@ -31,3 +31,11 @@ const perro1 = new Perro("Bobby", "Perro", "labrador");
 console.log(perro1);
 perro1.correr();
 perro1.emitirSonido();
+
+perro1.nuevoMetodo = function() {
+    console.log("Este es un metodo");
+};
+
+perro1.prototype.segundoMetodo = function() {
+    console.log("Es otro nuevo metodo");
+};

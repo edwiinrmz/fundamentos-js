@@ -35,7 +35,7 @@ perro1.emitirSonido();
 perro1.nuevoMetodo = function() {
     console.log("Este es un metodo");
 };
-
+//instancia-prototipo-metodo
 perro1.prototype.segundoMetodo = function() {
     console.log("Es otro nuevo metodo");
 };

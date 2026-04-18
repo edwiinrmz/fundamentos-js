@@ -1,6 +1,6 @@
 /*
 Requerimientos  del reto:
-
+valoracion de usuario para una red social:
 1. El usuario debe poder ingresar su usuario y contraseña.
 2. El usuario debe ser capaz de validar si el usuario y constraseña 
 ingresados por el usuario existen en la base de datos.
